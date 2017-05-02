@@ -1,0 +1,38 @@
+body {
+	font-family: 'Lora', serif;
+	text-align: center;
+}
+p {
+	text-align: left;
+}
+h2 {
+	font-size: 14px;
+}
+h1 {
+	font-size: 40px;
+}
+.vogue {
+	resize: 20%;
+}
+blockquote {
+	font-weight: bold;
+	font-size: 30px;
+	font-style: italic;
+}
+img.shoes {
+	display: none
+}
+p.one:hover + img.shoes{
+	display: inline-block;
+}
+img.suit {
+	display: none
+}
+p.two:hover + img.suit{
+	display: inline-block;
+}
+@media screen and (max-width: 320px) {
+	body {
+		font-size: 100%
+	}
+}
