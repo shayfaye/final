@@ -31,6 +31,9 @@ img.suit {
 p.two:hover + img.suit{
 	display: inline-block;
 }
+.ceremony {
+	resize: 30%;
+}
 @media screen and (max-width: 320px) {
 	body {
 		font-size: 100%
